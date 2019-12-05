@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  //h2= "About"
+  p 
+    strong What do you want to do? Click on one of the links below:
+  - var options = ["Add a transaction", "Manage Accounts", "Maintain Expense Categories", "View Reports"]
+  ul
+    each i in options
+      li
+        if (i == "Add a transaction")
+          a(href="http://localhost:3000/addanexpense")= i
+        else
+          a(href="https://www.google.com")= i
+
+
+

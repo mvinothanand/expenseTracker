@@ -1,0 +1,96 @@
+extends layout
+
+block content
+    h1
+        p Expense Tracker - Add a Transaction
+    form(action="http://localhost:3000/postexpense" method="POST")
+        table(
+            border=0
+            background-color=red
+        )
+            tr
+                td
+                    p Date of transaction: 
+                td
+                    input(
+                    type="date"
+                    name="tranDate"
+                    min="2019-12-01"
+                    )
+            tr
+                td
+                    p 
+                        | Expense: 
+                        input(
+                            type="radio"
+                            name="expIncFlg"
+                            value="Expense"
+                            checked
+                        )
+                td
+                    p
+                        | Income: 
+                        input(
+                            type="radio"
+                            name="expIncFlg"
+                            value="Income"
+                        ) 
+            tr    
+                td
+                    p Category: 
+                td
+                    input(
+                        type="select"
+                        name="expCat"
+                )
+            tr
+                td
+                    p Sub Category: 
+                td
+                    input(
+                        type="select"
+                        name="expCat"
+                    )        
+            tr
+                td
+                    p Description: 
+                td
+                    input(
+                        type="text"
+                        name="expDesc"
+                    )
+            tr
+                td
+                    p Amount: 
+                td
+                    input(
+                        type="number"
+                        name="expAmt"
+                    )
+            tr
+                td
+                    p Payment Method:
+                td
+                    input(
+                        type="text"
+                        name="pmntMethod"
+                    )
+            tr
+                td
+                    p Account:
+                td
+                    input(
+                        type="text"
+                        name="acct"
+                    )
+            tr
+                td
+                    input(
+                    type="reset"
+                    value="Reset"
+                    )
+                td
+                    input(
+                    type="submit"
+                    value="Submit"
+                    )

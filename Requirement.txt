@@ -1,0 +1,47 @@
+Expense and Income Tracker
+==========================
+Capability to configure accounts
+	- Card Account
+	- Savings
+	- Fixed Deposits
+	- Loans
+	- Demat Accounts
+	- Chits
+	- Spouse Account
+	- Children Accounts
+	- Cash Account
+
+Capability to configure broad level expense and income Categories
+	- like Medical, Entertainment, Travel, Personal Care, Groceries, Miscellaneous etc.
+
+Capability to configure second level of expense and income categories
+	- for example travel expense could be for daily commuting as well as travel to hometown or a tour.
+
+Capability to add tags on the go
+
+Capability to capture below details for an expense
+	- Date
+	- For whom? This could be common or attributed to a particular person.
+	- Expense Category (level 1 and 2) as configured.
+	- Tags
+	- Expense description
+	- Amount
+	- Payment Method
+	- Account 
+	- Expense/Income flag
+	
+Capability to view the current position of each of the accounts
+
+Capability to drill down into the expenses and incomes on each accounts
+
+Capability to view monthly, quarterly, half yearly and annual reports - summary as well as drill down.
+
+Capability to show trends in graphs, pie charts etc.
+
+Provide insights and advices
+	- Example, your expense on entertainement is three times higher than last month.
+	- 
+Capability to upload transactions from a text file or excel - any standard formats (qfx etc.)
+
+
+
